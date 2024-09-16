@@ -8,3 +8,6 @@ find . -type d -name temprepo -prune -o -name '*.py' | xargs wc -l | tail -n1 | 
 
 # Wed Sep 11 18:44:16 +04 2024 ~> :r !date
 history | awk '{print $0}' | awk '{print NF, $0}' | sort -nr | head -n 50 
+
+# Mon Sep 16 06:25:04 PM +04 2024
+find . -maxdepth 1 -type f ! -name claude* -exec mv {} gpt/;
