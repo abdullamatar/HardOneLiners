@@ -1,4 +1,4 @@
-#! usr/env/bin bash
+#! /usr/env/bin bash
 
 #Hardest one of 2023:
 detex sop.tex |  sed -E 's|https?://[^ ]+||g' | wc -c
