@@ -15,3 +15,5 @@ find . -maxdepth 1 -type f ! -name claude* -exec mv {} gpt/;
 # Tue Oct 15 10:35:02 +04 2024
 ls ./ | awk 'BEGIN { printf "["; first=1 } { if (first) { printf "\"%s\"", $0; first=0 } else { printf ", \"%s\"", $0 } } END { print "]" }' | fish_clipboard_copy
 
+# Sun Feb  9 12:57:38 +04 2025
+find . -type f -name "*.py" -exec sed -i '1s|^|from __future__ import annotations\n|' {} +
