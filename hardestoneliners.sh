@@ -17,3 +17,7 @@ ls ./ | awk 'BEGIN { printf "["; first=1 } { if (first) { printf "\"%s\"", $0; f
 
 # Sun Feb  9 12:57:38 +04 2025
 find . -type f -name "*.py" -exec sed -i '1s|^|from __future__ import annotations\n|' {} +
+
+
+# Wed Aug  6 09:07:42 +04 2025
+ls $(python -c "import site; print(site.getsitepackages()[0])") | grep tesseract
