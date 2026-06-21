@@ -24,3 +24,6 @@ ls $(python -c "import site; print(site.getsitepackages()[0])") | grep tesseract
 # Thu Feb  5 15:28:01 +04 2026
 g++ -dM -E -x c++ /dev/null | grep -F __cplusplus
 
+# Sun Jun 21 20:14:36 +04 2026, in fish
+source (sed 's/^/export /' .env | psub)
+
