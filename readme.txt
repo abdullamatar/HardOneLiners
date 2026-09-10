@@ -1,3 +1,3 @@
 →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→
-Archive for bash one liners that make me feel good about myself.
+Archive for shell one liners that bring me joy.
 →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→ ←_← →_→
