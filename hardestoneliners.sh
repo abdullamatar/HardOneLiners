@@ -27,3 +27,5 @@ g++ -dM -E -x c++ /dev/null | grep -F __cplusplus
 # Sun Jun 21 20:14:36 +04 2026, in fish
 source (sed 's/^/export /' .env | psub)
 
+# Thu Sep 10 10:34:51 AM +04 2026
+basename (ls camera/measure_camera_latency.py)  | xargs rg -l | xargs sed  's|tools_and_docs/tests/|utils/camera|g'
